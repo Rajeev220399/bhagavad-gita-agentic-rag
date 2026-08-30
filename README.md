@@ -1,10 +1,10 @@
 # bhagavad-gita-agentic-rag
 Production-grade, 100% open-source local Agentic RAG system built with CrewAI, LlamaIndex, Docling, Ollama, and PGVector for domain-specific document intelligence.
-## 📌 Project Description
+## Project Description
 
 This project is a **100% open-source, fully local Agentic Retrieval-Augmented Generation (RAG) system** engineered for private, domain-specific document intelligence. Built around the Bhagavad Gita as a domain test case, the architecture decouples document processing, retrieval, multi-agent orchestration, and client API layers into a modular system.
 
-### 🌟 Core Architecture & Engineering Highlights
+## Core Architecture & Engineering Highlights
 
 * **Document Parsing & Extraction:** Integrated **Docling** for structured, layout-aware PDF conversion[cite: 5, 6].
 * **Vector Storage & Indexing:** Powered by **LlamaIndex** paired with **PGVector (PostgreSQL)** for persistent, high-dimensional vector search[cite: 6].
@@ -16,7 +16,7 @@ This project is a **100% open-source, fully local Agentic Retrieval-Augmented Ge
 
 ---
 
-## 🛠️ Stack Overview
+## Stack Overview
 
 * **Orchestration:** CrewAI[cite: 1, 2, 7]
 * **RAG Framework:** LlamaIndex[cite: 2, 6, 9]
